@@ -1,7 +1,7 @@
 import {useGSAP} from "@gsap/react";
 import {SplitText} from "gsap/all";
 import gsap from "gsap";
-import {useRef} from "react";
+import { useRef } from "react";
 import {useMediaQuery} from "react-responsive";
 
 const Hero = () => {
@@ -51,7 +51,7 @@ const Hero = () => {
                 trigger: 'video',
                 start: startValue,
                 end: endValue,
-                scrub:  true,
+                scrub: true,
                 pin: true,
             }
         })
